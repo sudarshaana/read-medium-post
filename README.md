@@ -15,10 +15,16 @@ A simple Chrome extension that allows you to read Medium articles for free using
 2. Click the "Read in Freedium" button
 3. The article will open in a new tab using Freedium
 
+Alternatively, you can:
+1. Right-click on any Medium article link
+2. Select "Read in Freedium" from the context menu
+3. The article will open in a new tab using Freedium
+
 ## Files
 - `manifest.json`: Extension configuration
 - `popup.html`: Extension popup interface
 - `popup.js`: Extension functionality
+- `background.js`: Context menu and background tasks
 - `icons/`: Directory containing extension icons
 
 ## Disclaimer
@@ -39,5 +45,6 @@ This project is designed to demonstrate:
 - HTML/CSS Implementation
 - Browser API Integration
 - URL Handling and Redirection
+- Context Menu Integration
 
 The code and implementation are meant for learning and understanding browser extension development. We encourage users to study the code, understand the implementation, and use it as a reference for educational purposes.

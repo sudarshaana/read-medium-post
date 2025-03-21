@@ -3,7 +3,13 @@
   "name": "Free Medium Reader",
   "version": "1.0",
   "description": "Opens Medium articles in Freedium for free reading",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
