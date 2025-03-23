@@ -12,7 +12,7 @@ A simple Chrome extension that allows you to read Medium articles for free using
 ## Usage
 
 1. When you're on a Medium article, click the extension icon in your Chrome toolbar
-2. Click the "Read in Freedium" button
+2. Click the "Remove Paywall" button
 3. The article will open in a new tab using Freedium
 
 Alternatively, you can:
